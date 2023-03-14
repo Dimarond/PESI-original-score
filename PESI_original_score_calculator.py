@@ -3,25 +3,29 @@
 Age = int(input("What is the patient's age? ")
 
 Male = input("Is the patient male? (yes/NO) ")
-
+  if Male == "yes":
+     Male_score = 10
+  else:
+     Male_score = 0
 
 Cancer = input("Does the patient have cancer? ")
 
-Congestive_Heart_Failure = 
 
-Boală pulmonară cronică 
+Chronic_Heart_Failure = 
 
-Alură ventriculară >110/min 
-
-Tensiune arterială sistolică <100 mmHg
-
-Frecvenţă respirato-rie >30/min
+Chronic_pulmonary_disease =
  
-Temperatură <36°C 
+Pulse_rate_≥110_beats/min =
 
-Status mental alterat 
+Tensiune arterială sistolică <100 mmHg =
 
-Saturaţia oxigenului arterial <90% '''
+Frecvenţă respirato-rie >30/min =
+ 
+Temperatură <36°C =
+
+Status mental alterat =
+
+Saturaţia oxigenului arterial <90% = '''
 
 
 
