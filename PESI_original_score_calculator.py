@@ -80,9 +80,10 @@ print(Total)
           print(Class III: 86–105 points Moderate mortality risk (3.2–7.1%))
      if 106 <= Total <= 125:
           print(Class IV: 106–125: points High mortality risk (4.0–11.4%))
-     if Total = > 125:
+     if Total >= 125:
           print(Class V: >125 points Very high mortality risk (10.0–24.5%))
-   
+     else:
+     prin(error)
 
 '''       
 Class I: ≤65 points
