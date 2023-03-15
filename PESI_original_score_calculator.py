@@ -71,18 +71,20 @@ Total = Age + Male_score + Cancer_score + Chronic_Heart_Failure_score + Chronic_
 '''Output and print the risk class'''
 print(Total)
 
-''' 
+
      if Total <= 65:
           print(Class I: Very low 30 day mortality risk (0–1.6%))
-     if Total = 66 between 85:
+     if 66 <= Total <=85:
           print(Class II: 66–85 points Low mortality risk (1.7–3.5%))
-     if Total = 86 between 105:
+     if 86 <= Total <= 105:
           print(Class III: 86–105 points Moderate mortality risk (3.2–7.1%))
-     if Total = 106–125:
+     if 106 <= Total <= 125:
           print(Class IV: 106–125: points High mortality risk (4.0–11.4%))
      if Total = > 125:
           print(Class V: >125 points Very high mortality risk (10.0–24.5%))
-          
+   
+
+'''       
 Class I: ≤65 points
 Very low 30-day
 mortality risk
