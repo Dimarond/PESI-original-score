@@ -89,30 +89,6 @@ elif Total >= 125:
 else:
      print("error")
 
-'''       
-Class I: ≤65 points
-Very low 30-day
-mortality risk
-(0–1.6%)
-
-Class II: 66–85 points
-Low mortality risk
-(1.7–3.5%)
-
-Class III: 86–105
-points
-Moderate mortality
-risk (3.2–7.1%)
-
-Class IV: 106–125:
-points
-High mortality risk
-(4.0–11.4%)
-
-Class V: >125 points
-Very high mortality risk
-(10.0–24.5%)  '''
-
 Disclaimer = "This script is for educational purposes only!"
 
 print(Disclaimer)
