@@ -69,7 +69,7 @@ else:
 Total = Age + Male_score + Cancer_score + Chronic_Heart_Failure_score + Chronic_pulmonary_disease_score + Pulse_rate_more_equal_110_bpm_score + Systolic_blood_pressure_less_100_mmHg_score + Respiratory_rate_more_than_30_breaths_min_score + Temperature_less_than_36_C_score + Altered_mental_status_score + Arterial_oxyhaemoglobin_saturation_less_than_90_percent_score
 
 '''Output and print the risk class'''
-print("Total points:" +Total)
+print("Total points:", Total)
 
 if Total <= 65:
      print("Class I: Very low 30 day mortality risk (0–1.6%)")
