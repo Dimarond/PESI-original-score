@@ -89,6 +89,6 @@ elif Total >= 125:
 else:
      print("error")
 
-Disclaimer = "This script is for educational purposes only!"
+Disclaimer = "This script is for educational purposes only and clinical corelation is required!"
 
 print(Disclaimer)
